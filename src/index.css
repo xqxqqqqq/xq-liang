@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #165DFF;
+  --secondary-color: #F5F7FA;
+  --dark-color: #333333;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--dark-color);
+  background-color: #ffffff;
+}
+
+.course-card {
+  transition: all 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(22, 93, 255, 0.1), 0 10px 10px -5px rgba(22, 93, 255, 0.04);
+}
